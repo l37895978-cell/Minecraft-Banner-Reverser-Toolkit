@@ -1,0 +1,23 @@
+{
+  "typeCheckingMode": "off",
+  "reportDeprecatedTypeComment": "none",
+  "reportMissingTypeStubs": "none",
+  "reportUnknownMemberType": "none",
+  "reportUnknownParameterType": "none",
+  "reportUnknownVariableType": "none",
+  "reportUnknownArgumentType": "none",
+  "reportUnknownLambdaType": "none",
+  "reportMissingTypeArgument": "none",
+  "reportPrivateImportUsage": "none",
+  "reportUnnecessaryTypeIgnoreComment": "none",
+  "exclude": [
+    "**/site-packages/**",
+    "**/__pycache__/**",
+    "C:/Users/qaqly/AppData/Local/Programs/Python/Python311/Lib/site-packages/**"
+  ],
+  "ignore": [
+    "**/site-packages/**",
+    "**/__pycache__/**",
+    "C:/Users/qaqly/AppData/Local/Programs/Python/Python311/Lib/site-packages/**"
+  ]
+}
