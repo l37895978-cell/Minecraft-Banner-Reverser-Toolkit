@@ -1,0 +1,14 @@
+# 安装时根据硬件选择 PyTorch 变体：
+#   NVIDIA GPU:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#   AMD/Intel GPU (核显): pip install torch torchvision (CPU版) + pip install torch-directml
+#   无 GPU:      pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+numpy
+opencv-python
+PyQt5
+Pillow
+matplotlib
+psutil
+pynvml
+# torch-directml  # 仅 AMD/Intel 核显用户安装

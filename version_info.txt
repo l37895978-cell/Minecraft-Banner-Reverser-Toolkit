@@ -1,0 +1,26 @@
+# UTF-8
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 8, 0),
+    prodvers=(1, 0, 8, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0),
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable('080404b0', [
+        StringStruct('CompanyName', ''),
+        StringStruct('FileDescription', '我的世界旗帜逆向套件安装器 v0.5 beta1 (1.0.8)'),
+        StringStruct('FileVersion', 'v0.5 beta1 (1.0.8)'),
+        StringStruct('ProductName', '我的世界旗帜逆向套件'),
+        StringStruct('ProductVersion', 'v0.5 beta1 (1.0.8)'),
+        StringStruct('OriginalFilename', '旗帜逆向套件下载器.exe'),
+      ])
+    ]),
+    VarFileInfo([VarStruct('Translation', [0x804, 1200])])
+  ]
+)

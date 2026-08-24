@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.trae/
+
+# Model files (large, not suitable for git)
+models/model_file/*.pth
+models/model_file/*.pt
+models/model_file/*.pkl
+*.pth
+*.pt
+*.ckpt
+
+# Training data (may contain user data)
+saves/
+
+# Logs
+log/
+logs/
+*.log
+
+# Config with user-specific settings
+config/
+
+# Temp files
+*.tmp
+*.bak
+*.lock
+temp/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Error reports and crash dumps
+*.dmp
+*.stackdump
+
+# PyInstaller
+*.spec
+!downloader.spec
+
+# 开发/测试工具与内部文档（不开源，MVP 原则）
+_popup_gallery.pyw
+pyrightconfig.json
+测试指引_打包验收.md
+开发踩坑记录.md
+补丁制作说明.md
+补丁工具_启动器.cmd
+项目信息&进度日志.txt
+项目结构总结.md
+版本兼容性矩阵.md
+旗帜逆向套件 v1.0.6a 更新说明.md
+旗帜逆向套件 v1.0.7a 更新说明.md
+Python环境检查与修复指南.md
+训练流程说明.txt
+使用说明.txt
+
+# 安装目录/构建产物/大体积依赖（不进仓库）
+Lib/
+dml_env/
+exe/
+build/
+patches/
+archive_size.txt
+
+# 本地开发环境标记（克隆后会让安装器误判为开发目录）
+.dev_marker/
+
+# 本机安装记录（含个人路径，且会误导安装器识别已安装状态）
+install_components.json
