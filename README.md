@@ -40,7 +40,6 @@ python start.pyw
 | `requirements.txt` | 依赖清单（按硬件选择 PyTorch 变体） |
 | `LICENSE` | 开源许可（GPL-3.0） |
 | **`installer/` 安装器** | |
-| `installer/demo_installer.pyw` | 安装程序主界面 |
 | `installer/real_installer.pyw` | 安装器真正入口（打包为目标 exe） |
 | `installer/install.py` | 安装逻辑（注册表、快捷方式、图标） |
 | `installer/setup_hardware.py` | GPU 检测与对应 PyTorch 变体安装 |
